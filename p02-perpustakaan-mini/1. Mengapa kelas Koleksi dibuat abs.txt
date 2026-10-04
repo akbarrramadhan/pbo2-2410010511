@@ -1,0 +1,11 @@
+1. Mengapa kelas Koleksi dibuat abstract?
+2. Apa perbedaan peran abstract class Koleksi dan interface BisaDipinjam?
+3. Mengapa atribut status tidak diberi setter?
+4. Tunjukkan satu baris kode pada kelas Perpustakaan yang merupakan contoh polymorphism, lalu jelaskan.
+5. Kapan Anda memilih record dibandingkan class biasa?
+Jawaban:
+1. Kelas Koleksi dibuat abstract agar menjadi kelas dasar dan tidak dibuat sebagai objek secara langsung.
+2. Koleksi berperan sebagai struktur dasar objek, sedangkan BisaDipinjam berperan sebagai aturan atau kemampuan bahwa objek dapat dipinjam.
+3. Atribut status tidak diberi setter agar tidak dapat diubah sembarangan dan tetap menerapkan enkapsulasi.
+4. Contoh polymorphism adalah Koleksi koleksi = new Buku(...), karena variabel bertipe Koleksi dapat menyimpan objek Buku.
+5. Record dipilih untuk menyimpan data sederhana yang tidak banyak berubah, sedangkan class biasa digunakan jika membutuhkan logika dan perilaku yang lebih kompleks.

@@ -8,6 +8,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
+<<<<<<< HEAD
         <exec.mainClass>id.ac.uniska.pbo2.p01.halo.java.P01HaloJava</exec.mainClass>
+=======
+        <exec.mainClass>id.ac.uniska.pbo2.p01.halo.java.HaloPBO2</exec.mainClass>
+>>>>>>> 3e8e4f96137710f521bdb2af627819b421723055
     </properties>
 </project>

@@ -1,0 +1,13 @@
+Pertanyaaan Refleksi
+Ringkasan:
+1. Null/Absolute Layout dihindari: Koordinat dan ukuran tetap membuat tampilan tidak menyesuaikan ukuran jendela, resolusi, DPI, atau font, sehingga komponen terpotong atau ada ruang kosong. Perawatannya juga sulit karena menambah komponen berarti menggeser koordinat lain secara manual.
+
+2. FlowLayout vs GridLayout: FlowLayout mempertahankan ukuran komponen. Saat jendela melebar, hanya susunannya yang berubah, dan komponen wrap bila ruang tidak cukup. GridLayout membagi sel berukuran sama dan memaksa komponen memenuhi selnya, jadi semua komponen ikut melebar dan tidak ada wrap.
+
+3. Weight X dan Fill: Weight X menentukan pembagian ruang tambahan horizontal antar kolom. Fill menentukan apakah komponen mengisi selnya. Keduanya bekerja berpasangan: weight membesarkan sel, Fill membuat komponen memanfaatkannya.
+
+4. formPanel dalam isiPanel di North: Satu panel hanya punya satu layout, jadi formPanel (GridBagLayout) dibungkus isiPanel (BorderLayout) untuk pemisahan tanggung jawab. Di North, form hanya setinggi isinya dan menempel di atas, sehingga tidak melar saat jendela ditinggikan.
+
+5. Dua prinsip desain (sesuaikan dengan form-mu):
+   - *Responsif:* namaField memakai Weight X = 1.0 dan Fill Horizontal, ditambah `setMinimumSize(getSize())`.
+   - *Pengelompokan komponen:* form isian, panel tombol, dan isiPanel dipisah menurut fungsi dan layout masing-masing.

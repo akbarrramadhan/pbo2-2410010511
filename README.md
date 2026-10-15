@@ -27,6 +27,9 @@
 https://github.com/akbarrramadhan/pbo2-2410010511/blob/main/p04-layout-manager/Deklarasi%20Ai.txt
 # Eksperimen 4
 https://github.com/akbarrramadhan/pbo2-2410010511/blob/main/p04-layout-manager/Eksperimen%204.txt
+# Eksperimen praktikum 2
+https://github.com/akbarrramadhan/pbo2-2410010511/blob/main/p04-layout-manager/Eksperimen%20Praktikum%202.txt
+
 
 
 

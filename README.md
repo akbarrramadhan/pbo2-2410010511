@@ -22,8 +22,11 @@
 <img width="867" height="297" alt="Cuplikan layar 2026-10-15 214514" src="https://github.com/user-attachments/assets/e0858c76-5009-43e1-ab6f-950b13c2b632" />
 # tabel rancangan
 <img width="628" height="222" alt="Cuplikan layar 2026-10-15 214635" src="https://github.com/user-attachments/assets/eccb72ef-aede-4e1e-ad2a-37b0b34d3499" />
+
 # Deklarasi AI
 https://github.com/akbarrramadhan/pbo2-2410010511/blob/main/p04-layout-manager/Deklarasi%20Ai.txt
+# Eksperimen 4
+https://github.com/akbarrramadhan/pbo2-2410010511/blob/main/p04-layout-manager/Eksperimen%204.txt
 
 
 

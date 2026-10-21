@@ -1,0 +1,8 @@
+Eksperimen Praktikum 2
+
+
+1. **flowPanel (Alignment → Center):** Tombol tersusun di tengah, dan saat jendela dikecilkan tombol turun ke baris berikutnya (wrap) dengan tiap baris tetap di tengah. Baris di `initComponents()` yang berubah: `new java.awt.FlowLayout(java.awt.FlowLayout.CENTER)`.
+
+2. **gridPanel (Rows 0, Columns 2):** Jumlah baris otomatis = ⌈jumlah komponen ÷ 2⌉ (misal 4 tombol → 2 baris). Rows = 0 artinya baris dibiarkan bebas, sedangkan kolom tetap 2.
+
+3. **boxPanel (maximumSize 32767 × tinggi tombol):** Lebar tombol melebar memenuhi lebar panel dan mengikuti perubahan ukuran jendela, tingginya tetap. Vertical Strut (Palette → Swing Fillers) ditambahkan di antara tombol untuk memberi jarak tetap vertikal, yaitu `Box.createVerticalStrut(10)`.

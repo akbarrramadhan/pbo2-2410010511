@@ -1,0 +1,7 @@
+Eksperimen 4
+
+1. **namaField (Weight X = 0.0):** Isian tidak mendapat jatah ruang tambahan, jadi lebarnya tetap dan tidak ikut melebar saat jendela dilebarkan. Kode: `gridBagConstraints.weightx = 0.0;`
+
+2. **formPanel (North → Center):** Dengan North, formPanel hanya setinggi ukuran pilihannya dan tidak ikut membesar. Dengan Center, formPanel mengambil seluruh sisa ruang sehingga ikut membesar ke bawah saat jendela ditinggikan, dan isinya terdistribusi ulang sesuai weight Y. Kode: `BorderLayout.NORTH` menjadi `BorderLayout.CENTER`.
+
+3. **Hapus `setMinimumSize(getSize())`:** Jendela bisa dikecilkan tanpa batas, dan bagian form (label dan isian) rusak lebih dulu: label terpotong, isian menyempit atau hilang, komponen bertumpuk. Panel tombol bertahan lebih lama karena bisa wrap.

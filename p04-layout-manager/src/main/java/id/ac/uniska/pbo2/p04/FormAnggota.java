@@ -10,14 +10,14 @@ import com.formdev.flatlaf.FlatLightLaf;
  *
  * @author Akbar
  */
-public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
+public class FormAnggota extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FormAnggotaPerpustakaan.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FormAnggota.class.getName());
 
     /**
      * Creates new form FormAnggotaPerpustakaan
      */
-    public FormAnggotaPerpustakaan() {
+    public FormAnggota() {
         initComponents();
         namaField.putClientProperty("JtextField.placeholderText", "Masukkan nama lengkap");
         npmField.putClientProperty("JtextField.placeholderText", "Masukkan npm");
@@ -59,6 +59,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         setujuCheck = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Pendaftaran Anggota Perpustakaan");
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 formWindowClosing(evt);
@@ -79,7 +80,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         tombolPaneLayout.setHorizontalGroup(
             tombolPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tombolPaneLayout.createSequentialGroup()
-                .addContainerGap(153, Short.MAX_VALUE)
+                .addContainerGap(418, Short.MAX_VALUE)
                 .addComponent(daftarButton)
                 .addGap(18, 18, 18)
                 .addComponent(batalButton)
@@ -300,7 +301,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
        FlatLightLaf.setup();    
-        java.awt.EventQueue.invokeLater(() -> new FormAnggotaPerpustakaan().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new FormAnggota().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
